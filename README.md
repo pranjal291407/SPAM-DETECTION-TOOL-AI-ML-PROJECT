@@ -169,4 +169,10 @@ NOT SPAM ✅
 * Scikit-learn documentation
 * Python community
 
+## 📸 Project Outputs
+
+| ❌ Spam Output | ✅ Not Spam Output |
+|---------------|------------------|
+| ![](https://github.com/pranjal291407/SPAM-DETECTION-TOOL-AI-ML-PROJECT/blob/main/SAMPLE%20OUTPUTS/SPAM%20OUTPUT.png) | ![](https://github.com/pranjal291407/SPAM-DETECTION-TOOL-AI-ML-PROJECT/blob/main/SAMPLE%20OUTPUTS/NOT%20SPAM%20OUTPUT.png) |
+
 ---
