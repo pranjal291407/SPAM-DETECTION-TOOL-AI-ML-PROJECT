@@ -71,27 +71,23 @@ def clear_text():
     entry.delete(0, tk.END)
     output_label.config(text="")
 
-# Create window
+
 root = tk.Tk()
 root.title("Spam Email Detector")
 root.geometry("500x350")
 
-# Title
 title_label = tk.Label(root, text="Spam Detection System", font=("Arial", 16, "bold"))
 title_label.pack(pady=10)
 
-# Input box
 entry = tk.Entry(root, width=40, font=("Arial", 12))
 entry.pack(pady=10)
 
-# Buttons
 check_btn = tk.Button(root, text="Check Spam", command=check_message, bg="blue", fg="white")
 check_btn.pack(pady=5)
 
 clear_btn = tk.Button(root, text="Clear", command=clear_text)
 clear_btn.pack(pady=5)
 
-# Output
 output_label = tk.Label(root, text="", font=("Arial", 12))
 output_label.pack(pady=20)
 
